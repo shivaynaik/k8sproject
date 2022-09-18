@@ -8,3 +8,4 @@ RUN cp -rvf loxury/* .
 RUN rm -rf loxury loxury.zip
 CMD ["/usr/sbin/httpd", "-D","FOREGROUND"]
 EXPOSE 80
+
